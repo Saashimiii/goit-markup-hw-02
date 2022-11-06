@@ -1,9 +1,176 @@
-head {
-    display: none;
+body {
+    font-family: Roboto;
+    color: #212121;
 }
 
 
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #F5F5F5;
+/* шапка */
+.page-header {}
+
+li {
+    list-style-type: none;
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
+}
+
+.color {
+    color: #2196F3;
+}
+
+/* Навігація */
+
+.site-nav a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.site-nav a:hover {
+    color: #2196F3;
+}
+
+.site-nav a:focus {
+    color: #2196F3;
+}
+
+/* Контакти */
+
+.contact a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.contact a:hover {
+    color: #2196F3;
+}
+
+.contact a:focus {
+    color: #2196F3;
+}
+
+/* Ефективні рішення */
+
+.main-inf {
+    background: #2F303A;
+}
+
+.main-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* кнопка "Замовити послугу" */
+
+.button-buy {
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button-buy:hover {
+    background: #188CE8;
+}
+
+.button-buy:focus {
+    background: #188CE8;
+}
+
+/* текст заголовка */
+.hidden {
+    display: none;
+}
+
+.text-h {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.about {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.company-inf {
+    background: #F5F4FA;
+}
+
+.company {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+/* підвал */
+
+.page-footer {
+    background: #2F303A;
+}
+
+.logo-footer {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.address-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
 }
