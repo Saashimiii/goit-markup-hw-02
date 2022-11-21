@@ -8,6 +8,7 @@ body {
 .page-header .container {
     display: flex;
     align-items: center;
+
 }
 
 .container {
@@ -41,6 +42,7 @@ a {
 
 .logo {
 
+
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -56,8 +58,16 @@ a {
 }
 
 /* Навігація  */
+
+nav {
+    display: flex;
+
+}
+
 .site-nav {
     display: flex;
+    margin-left: 93px;
+
 }
 
 
@@ -86,6 +96,7 @@ a {
 .contact {
     display: flex;
     margin-left: auto;
+
 }
 
 .contact .item+.item {
