@@ -3,12 +3,21 @@ body {
     color: #212121;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+}
+
 /* контейнер для работы */
 
 .page-header .container {
     display: flex;
     align-items: center;
-
 }
 
 .container {
@@ -16,17 +25,14 @@ body {
     margin-right: auto;
     width: 1200px;
     padding-left: 15px;
-    padding-right: 30px;
-    outline: 2px solid teal;
-
-
+    padding-right: 15px;
 
 }
 
 
 /* шапка */
 .page-header {
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 
 a {
@@ -61,7 +67,7 @@ a {
 
 nav {
     display: flex;
-
+    align-items: center;
 }
 
 .site-nav {
@@ -124,11 +130,11 @@ nav {
 
 /* Ефективні рішення */
 
-/* .container-main {
-    margin: 0 auto;
-    padding: 94px 215px;
-    outline: 2px solid green; 
-} */
+
+.main-inf .container {
+    width: 1600px;
+    height: 600px;
+}
 
 .main-inf {
     background: #2F303A;
@@ -137,7 +143,13 @@ nav {
 }
 
 
+
+
 .main-text {
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
     margin-top: 0;
     margin-bottom: 30px;
 
@@ -324,6 +336,12 @@ nav {
     text-decoration: none;
 }
 
+.add .list {
+
+    padding: 0;
+    margin: 0;
+}
+
 .address-text {
     font-family: 'Roboto';
     font-style: normal;
@@ -346,7 +364,54 @@ nav {
 
 /* ПОРТФОЛІО */
 
+
+
+.btn {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 50px;
+
+
+}
+
+.btn .item {
+    margin: 0;
+    padding: 6px 22px;
+
+    cursor: pointer;
+    border: none;
+    background: #F5F4FA;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    line-height: 1.62;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.btn .item:hover,
+.btm .item:focus {
+    color: #fff;
+    background: #2196f3;
+}
+
+.portfolio-card {
+    background: #FFFFFF;
+    border-bottom: 1px solid #EEEEEE;
+    margin-bottom: 30px;
+}
+
+
 .port-h {
+    padding-left: 24px;
+    margin-bottom: 4px;
+
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -354,9 +419,14 @@ nav {
     line-height: 36px;
     letter-spacing: 0.06em;
     color: #212121;
+
 }
 
 .port-about {
+    margin-bottom: 4px;
+    padding-left: 24px;
+
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -373,4 +443,10 @@ nav {
 
 .section.no-padding {
     padding-top: 0;
+}
+
+.port {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
